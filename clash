@@ -5,107 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US |20.54Mb, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly5.xyz}, udp: true}
-  - {name: Relay_🇺🇸US | 4.64Mb, server: us2.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/nznlani/62639c9cac992/, ws-headers: {Host: us2.31vpn.com}, udp: true}
-  - {name: Relay_🇨🇳CN |17.29Mb, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN |27.28Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN |10.06Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: _06 |10.81Mb, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
-  - {name: CN_44 | 7.18Mb, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_35 |14.30Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_38 | 6.92Mb, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_39 |15.61Mb, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_43 |11.71Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_34 | 6.89Mb, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_41 |14.89Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_37 | 8.16Mb, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_51 | 7.92Mb, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_54 | 7.83Mb, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_49 | 8.31Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_52 |38.43Mb, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_32 |10.12Mb, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: RU_207 | 5.71Mb, server: 217.30.10.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb, server: in1.alink.qchwnd.moe, port: 10200, type: trojan, password: c8d3d54f-3175-49a6-a651-7ea889a704f6, sni: in1.alink.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_273 |12.50Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +56,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +70,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US |20.54Mb
-      - Relay_🇺🇸US | 4.64Mb
-      - Relay_🇨🇳CN |17.29Mb
-      - Relay_🇨🇳CN |27.28Mb
-      - Relay_🇬🇧GB-🇬🇧GB_95 | 9.66Mb
-      - Relay_🇨🇳CN |10.06Mb
-      - _06 |10.81Mb
-      - CN_44 | 7.18Mb
-      - CN_35 |14.30Mb
-      - CN_38 | 6.92Mb
-      - CN_39 |15.61Mb
-      - CN_43 |11.71Mb
-      - CN_34 | 6.89Mb
-      - CN_41 |14.89Mb
-      - CN_37 | 8.16Mb
-      - CN_51 | 7.92Mb
-      - CN_54 | 7.83Mb
-      - CN_49 | 8.31Mb
-      - CN_52 |38.43Mb
-      - CN_32 |10.12Mb
-      - RU_207 | 5.71Mb
+      - Relay_🇺🇸US-🇺🇸US_265 | 5.92Mb
+      - Relay_🇨🇳CN-🇭🇰HK_96 |27.28Mb
+      - Relay_🇺🇸US-🇺🇸US_273 |12.50Mb
+      - Relay_🇨🇳CN-🇺🇸US_98 |86.81Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
